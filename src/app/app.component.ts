@@ -9,11 +9,11 @@ import { FormGroup, FormControl } from '@angular/forms';
 export class AppComponent {
   title = 'testGit';
 
-  results = new FormGroup({
+  resultsSW = new FormGroup({
     searchbar: new FormControl('')
   })
 
   submitted(): void {
-    console.log(this.results.value)
+    console.log(this.resultsSW.value)
   }
 }

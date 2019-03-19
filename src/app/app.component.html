@@ -1,7 +1,8 @@
 <div>
-  <form [formGroup]="results" (ngSubmit)="submitted()">
+  <form [formGroup]="resultsSW" (ngSubmit)="submitted()">
     <label> Search: 
       <input type="text" name="searched" formControlName="searchbar">
     </label>
+    <button type="submit">Let's Go!</button>
   </form>
 </div>
