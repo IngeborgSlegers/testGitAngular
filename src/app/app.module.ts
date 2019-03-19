@@ -3,12 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
-import { StarWarsComponent } from './star-wars/star-wars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StarWarsComponent
   ],
   imports: [
     BrowserModule, 

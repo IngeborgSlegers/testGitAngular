@@ -7,13 +7,16 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  constructor() {}
+
   title = 'testGit';
 
-  resultsSW = new FormGroup({
+  results = new FormGroup({
     searchbar: new FormControl('')
   })
 
   submitted(): void {
-    console.log(this.resultsSW.value)
+    console.log(this.results.value)
   }
 }
