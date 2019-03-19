@@ -9,7 +9,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 export class AppComponent {
   title = 'testGit';
 
-  results = new FormGroup({
+  resultsSW = new FormGroup({
     searchbar: new FormControl('')
   })
 
