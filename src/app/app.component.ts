@@ -12,4 +12,8 @@ export class AppComponent {
   results = new FormGroup({
     searchbar: new FormControl('')
   })
+
+  submitted(): void {
+    console.log(this.results.value)
+  }
 }
